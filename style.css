@@ -1,0 +1,17 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(images/f10f4eecbafe16d7a2b50a8e06d121f8.gif);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.menu{
+    padding-top: 1vh;
+    color: white;
+    text-decoration: none;
+}
+
