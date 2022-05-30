@@ -1,17 +1,44 @@
+@charset "UTF-8";
+
 *{ 
     margin: 0px;
     padding: 0px;
 }
 
 body{
+    font-size: 15px;
     background-image: url(images/f10f4eecbafe16d7a2b50a8e06d121f8.gif);
-    background-position: center;
     background-attachment: fixed;
+    background-position: center center;
 }
 
-.menu{
-    padding-top: 1vh;
-    color: white;
+header.menu{
+    word-spacing: 15px;
+    padding-top: 2vh;
+    text-align: center;
+}
+
+header.menu > a > h1{
+    display: inline;
+}
+
+.link{
     text-decoration: none;
+    color: rgb(172, 172, 172);
+}
+
+.link:hover{
+    transition: 0.4s;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.center-screen{
+    color: rgb(172, 172, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 85vh;
 }
 
