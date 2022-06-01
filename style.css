@@ -13,7 +13,7 @@ body{
 }
 
 header.menu{
-    word-spacing: 15px;
+    word-spacing: 1vw;
     padding-top: 2vh;
     text-align: center;
 }
@@ -42,3 +42,11 @@ header.menu > a > h1{
     min-height: 85vh;
 }
 
+a.linkedin_meio{
+    color: rgb(172, 172, 172);
+    text-decoration: none;
+}
+
+a.linkedin_meio:hover{
+    text-decoration: underline;
+}
