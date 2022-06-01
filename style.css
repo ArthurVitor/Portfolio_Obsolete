@@ -48,5 +48,21 @@ a.linkedin_meio{
 }
 
 a.linkedin_meio:hover{
+    transition: 0.4s;
+    color: white;
     text-decoration: underline;
+    font-size: 40px;
+}
+
+.MeetMeContent{
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.about{
+    padding-top: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding-bottom: 5vh;
+    background-color: rgba(255, 255, 255, 0.486);
 }
