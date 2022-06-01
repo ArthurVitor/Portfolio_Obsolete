@@ -55,14 +55,15 @@ a.linkedin_meio:hover{
 }
 
 .MeetMeContent{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     color: rgb(0, 0, 0);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 section.about{
-    padding-top: 5vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    padding-bottom: 5vh;
-    background-color: rgba(255, 255, 255, 0.486);
+    padding: 5vh 0vh 5vh 25%;
+    margin: 50vh 0vh 50vh 0vh;
+    background-color: rgba(255, 255, 255, 0.5);
 }
