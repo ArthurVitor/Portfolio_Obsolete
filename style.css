@@ -34,7 +34,7 @@ header.menu > a > h1{
 }
 
 .center-screen{
-    color: rgb(172, 172, 172);
+    color: rgb(192, 192, 192);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,13 +43,13 @@ header.menu > a > h1{
 }
 
 a.linkedin_meio{
-    color: rgb(172, 172, 172);
+    color: rgb(192, 192, 192);
     text-decoration: none;
 }
 
 a.linkedin_meio:hover{
     transition: 0.4s;
-    color: white;
+    color: rgb(192, 192, 192);
     text-decoration: underline;
     font-size: 40px;
 }
@@ -62,8 +62,17 @@ a.linkedin_meio:hover{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-section.about{
-    padding: 5vh 0vh 5vh 25%;
+div.about{
+    padding: 7vh;
     margin: 50vh 0vh 50vh 0vh;
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+.ImgContact{
+    padding-left: 90vw;
+}
+
+.git{
+    width: 40px;
+    height: 40px;
 }
