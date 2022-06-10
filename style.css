@@ -84,3 +84,13 @@ div.about{
     width: 40px;
     height: 40px;
 }
+
+.rodape{
+    padding: 10px;
+    background-color: var(--ContentBackgroundColor);
+}
+
+.footer_link{
+    text-decoration: none;
+    color: white;
+}
