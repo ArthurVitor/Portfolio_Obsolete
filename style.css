@@ -4,25 +4,46 @@
     margin: 0px;
     padding: 0px;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
-html{
-    scroll-behavior: smooth;
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
+
+
+h2 {
+    padding: 20px;
+    margin-left: 10px;
+    color:rgb(240, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 30px;
+    height: 300px; 
+
+  }
 
 :root{
-    --DefaultMargin: 200px 0vh 800px 0vh;
+    --DefaultMargin: 200px 0vh 70px 0vh;
     --ContentBackgroundColor: rgba(255, 255, 255, 0.5);
     --DefaultPadding: 7vh
 }
 
 
 body{
-    font-size: 15px;
-    background-image: url(images/f10f4eecbafe16d7a2b50a8e06d121f8.gif);
-    background-attachment: fixed;
-    background-position: center center;
+    font-size: 15px; 
+    background-color: #010110;
+   
 }
+
 
 header.menu{
     word-spacing: 1vw;
@@ -60,22 +81,34 @@ a.linkedin_meio{
 a.linkedin_meio:hover{
     transition: 0.4s;
     color: rgb(192, 192, 192);
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 40px;
 }
 
+.animation {
+    font-size: 15px;
+    background-image: url(images/f10f4eecbafe16d7a2b50a8e06d121f8.gif);
+    background-attachment: local;
+    background-position: center center;
+    
+    
+}
+
 .MeetMeContent{
-    text-align: left;
+    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(240, 240, 240);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#contact{ 
+    text-align: center;
+}
 div.about{
     padding: var(--DefaultPadding);
-    margin: var(--DefaultMargin);
     background-color: var(--ContentBackgroundColor);
+    text-align: center;
 }
 
 .ctt{
@@ -87,7 +120,9 @@ div.about{
 
 .rodape{
     padding: 10px;
-    background-color: var(--ContentBackgroundColor);
+    color:rgb(192, 192, 192);
+    text-align: center;
+   
 }
 
 .footer_link{
