@@ -13,6 +13,9 @@
     clear: both;
 }
 
+.row > h2{
+    font-family: 'Times New Roman', Times, serif;
+}
 
 h2 {
     padding: 20px;
@@ -33,14 +36,14 @@ h2 {
 
 :root{
     --DefaultMargin: 200px 0vh 70px 0vh;
-    --ContentBackgroundColor: rgba(255, 255, 255, 0.5);
+    --ContentBackgroundColor: rgba(114, 114, 114, 0.5);
     --DefaultPadding: 7vh
 }
 
 
 body{
     font-size: 15px; 
-    background-color: #010110;
+    background-color: #000000;
    
 }
 
@@ -90,8 +93,6 @@ a.linkedin_meio:hover{
     background-image: url(images/f10f4eecbafe16d7a2b50a8e06d121f8.gif);
     background-attachment: local;
     background-position: center center;
-    
-    
 }
 
 .MeetMeContent{
@@ -115,14 +116,13 @@ div.about{
     display: inline;
     padding-top: 10px;
     width: 40px;
-    height: 40px;
+    height: 50px;
 }
 
 .rodape{
     padding: 10px;
     color:rgb(192, 192, 192);
     text-align: center;
-   
 }
 
 .footer_link{
